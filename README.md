@@ -60,7 +60,7 @@ Durante a atividade, podem ser explorados os seguintes recursos:
 
 ## Autor
 
-André Flauzino da Costa Oliveira
+Allan Flauzino Costa Oliveira
 
 ## Finalidade
 
