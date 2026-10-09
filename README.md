@@ -60,8 +60,12 @@ Durante a atividade, podem ser explorados os seguintes recursos:
 
 ## Autor
 
-André Flauzino da Costa Oliveira
+Allan Flauzino Costa Oliveira
 
 ## Finalidade
 
 Este projeto possui finalidade acadêmica e foi criado para apoiar o aprendizado sobre controle de versões, organização de arquivos e utilização da plataforma GitHub.
+## Melhorias futuras
+
+Como evolução do projeto, poderão ser adicionados novos indicadores,
+cadastro de projetos e armazenamento das informações inseridas pelo usuário.
