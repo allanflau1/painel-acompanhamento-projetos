@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Painel simples para acompanhamento de projetos, desenvolvido para prática de Git e GitHub.">
+  <title>Painel de Acompanhamento de Projetos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <div class="container">
+      <h1>Painel de Acompanhamento de Projetos</h1>
+      <p>Exemplo acadêmico desenvolvido para praticar Git e GitHub</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="resumo" aria-label="Resumo dos projetos">
+      <div class="card-resumo">
+        <span class="rotulo">Total de projetos</span>
+        <strong id="totalProjetos">0</strong>
+      </div>
+      <div class="card-resumo">
+        <span class="rotulo">Em andamento</span>
+        <strong id="projetosAndamento">0</strong>
+      </div>
+      <div class="card-resumo">
+        <span class="rotulo">Concluídos</span>
+        <strong id="projetosConcluidos">0</strong>
+      </div>
+      <div class="card-resumo">
+        <span class="rotulo">Avanço médio</span>
+        <strong id="avancoMedio">0%</strong>
+      </div>
+    </section>
+
+    <section class="controles">
+      <div>
+        <label for="filtroStatus">Filtrar por status</label>
+        <select id="filtroStatus">
+          <option value="todos">Todos</option>
+          <option value="Planejamento">Planejamento</option>
+          <option value="Em andamento">Em andamento</option>
+          <option value="Concluído">Concluído</option>
+        </select>
+      </div>
+      <button id="btnOrdenar" type="button">Ordenar por avanço</button>
+    </section>
+
+    <section>
+      <h2>Projetos</h2>
+      <div id="listaProjetos" class="grade-projetos"></div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>Projeto acadêmico para estudo de versionamento com Git e GitHub.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
